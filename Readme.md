@@ -1,10 +1,7 @@
 # 🚀 PriorityTaskScheduler
 
 A high-performance, priority-based multithreaded job processing engine built using modern C++ concurrency primitives.
-
 This project simulates an operating system–style scheduler using a thread pool architecture and priority-driven execution. It demonstrates strong understanding of multithreading, synchronization, scheduling algorithms, and performance monitoring in C++.
-
----
 
 ## 📌 Overview
 
@@ -18,9 +15,7 @@ PriorityTaskScheduler is designed to:
   - Turnaround Time
   - Throughput
   - Total Execution Time
-
----
-
+    
 ## 🧠 Core Concepts Implemented
 
 - Thread Pool Design Pattern
@@ -31,17 +26,12 @@ PriorityTaskScheduler is designed to:
 - Performance Monitoring
 - Graceful Shutdown Mechanism
 
----
-
 Each worker thread:
-
 1. Waits for task availability
 2. Picks highest priority task
 3. Executes the task
 4. Updates performance metrics
 5. Continues until shutdown
-
----
 
 ## 🛠 Technologies Used
 
@@ -51,25 +41,20 @@ Each worker thread:
 - Synchronization Primitives
 - Scheduling Algorithms
 
----
 ## 📸 Screenshots
 
+Sample Input
 
----
+<img src="Screenshots/SampleInput.png" width="500">
+
+Sample Output
+
+<img src="Screenshots/SampleOutput.png" width="500">
 
 ## ▶ How to Compile
 
-### On Windows (MinGW / g++):
-
 ```bash
 g++ main.cpp thread_pool.cpp -std=c++17 -pthread -o job_engine
-job_engine //command prompt
-.\job_engine.exe //powershell
-
-```
-
-### On Windows (MinGW / g++):
-
-```bash
-g++ main.cpp thread_pool.cpp -std=c++17 -pthread -o job_engine
+.\job_engine.exe        //powershell
+job_engine             //command prompt
 ```
