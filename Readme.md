@@ -1,4 +1,4 @@
-# 🚀 PriorityTaskScheduler
+# PriorityTaskScheduler
 
 A high-performance, priority-based multithreaded job processing engine built using modern C++ concurrency primitives.
 This project simulates an operating system–style scheduler using a thread pool architecture and priority-driven execution. It demonstrates strong understanding of multithreading, synchronization, scheduling algorithms, and performance monitoring in C++.
