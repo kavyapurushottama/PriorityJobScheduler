@@ -52,6 +52,8 @@ Each worker thread:
 - Scheduling Algorithms
 
 ---
+## 📸 Screenshots
+
 
 ---
 
